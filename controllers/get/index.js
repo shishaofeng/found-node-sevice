@@ -1,6 +1,7 @@
 const Koa = require('koa')
 const app = new Koa()
 const bodypaser = require('koa-bodyparser')
+const mysql = require('mysql');
 app.use(bodypaser())
 
 const router = require('koa-router')()
